@@ -11,6 +11,8 @@
 		<class>src.com.jpa.inheritance.InheritStaff</class>
 		<class>src.com.jpa.inheritance.InheritTeachingStaff</class>
 		<class>src.com.jpa.inheritance.InheritNonTeachingStaff</class>
+		<class>com.src.jpa.relations.Department</class>
+		<class>com.src.jpa.relations.Employee</class>
 		<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/mytestdb" />
 			<property name="javax.persistence.jdbc.user" value="root" />
