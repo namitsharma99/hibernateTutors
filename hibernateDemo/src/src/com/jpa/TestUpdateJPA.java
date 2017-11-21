@@ -11,7 +11,7 @@ public class TestUpdateJPA {
 		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("JPA_DEMO");
 		EntityManager entityManager = entityManagerFactory.createEntityManager();
 		entityManager.getTransaction().begin();
-		Employee employee = entityManager.find(Employee.class, 1);
+		Employee employee = entityManager.find(Employee.class, 4);
 		System.out.println("BEFORE UPDATE : " + employee);
 		employee.setSalary(10000000);
 		entityManager.getTransaction().commit();
